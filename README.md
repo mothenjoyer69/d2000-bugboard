@@ -21,7 +21,9 @@ This is an open source, hackable mITX board feauturing the Phytium D2000 ARM CPU
 * ATX + planned USB-C PD 20V/5A support
 
 ## To-do:
-* Finalize schematics:
+* Finalize schematics
+* Figure out illegal pinout for EC M.2 connector
+    * Design board, and figure out best ways to prevent port or module being used elsewhere and causing damage
 * Finalize board layout and stop swapping USB port designs
 * Routing for:
     * PCIe
