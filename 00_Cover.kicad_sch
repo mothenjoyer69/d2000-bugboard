@@ -1,0 +1,78 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "63ccfd88-88f8-4ba5-942b-bfda62ebbbfb")
+	(paper "A4")
+	(title_block
+		(title "Bugboard-1 D2000 mITX")
+		(date "2025-05-23")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(text "2025"
+		(exclude_from_sim no)
+		(at 139.446 158.496 0)
+		(effects
+			(font
+				(size 4.699 4.699)
+				(thickness 0.9398)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e9caa1e-00cb-42e9-9322-8ee6bdd06719")
+	)
+	(text "Schematics Document"
+		(exclude_from_sim no)
+		(at 81.026 111.76 0)
+		(effects
+			(font
+				(size 8.128 8.128)
+				(thickness 1.6256)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "51c274a3-78e5-4885-85ca-59141fe106ba")
+	)
+	(text "Rev: 1.0"
+		(exclude_from_sim no)
+		(at 132.588 137.414 0)
+		(effects
+			(font
+				(size 4.699 4.699)
+				(thickness 0.9398)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "574e763e-9842-4f54-b416-3f2869b102a2")
+	)
+	(text "Bugboard-1 D2000 mITX"
+		(exclude_from_sim no)
+		(at 27.432 84.074 0)
+		(effects
+			(font
+				(size 12.192 12.192)
+				(thickness 2.4384)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dae8682-ebdc-4eda-bf6d-508c5813b62c")
+	)
+	(text "MothTek"
+		(exclude_from_sim no)
+		(at 110.744 39.624 0)
+		(effects
+			(font
+				(size 12.192 12.192)
+				(thickness 2.4384)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "df98f78b-8068-44b1-bdc1-e5dbcbdd7b87")
+	)
+)

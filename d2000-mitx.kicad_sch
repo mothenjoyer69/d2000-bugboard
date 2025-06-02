@@ -1,0 +1,885 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "21839173-5070-4dd1-a061-b2cf3eec5d36")
+	(paper "A4")
+	(title_block
+		(title "Bugboard-1 D2000 mITX")
+		(date "2025-05-23")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(text "Bugboard-1 D2000 mITX"
+		(exclude_from_sim no)
+		(at 29.718 36.576 0)
+		(effects
+			(font
+				(size 12.192 12.192)
+				(thickness 2.4384)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "196a0dbf-0500-4880-9cd5-3a3bc430d07b")
+	)
+	(text "To-do:\n- Finish schematics!!!\n- Figure out requirements for replacing CPLD\n	- M.2 board layout\n	- MCU requirements + options\n- routing!!!\n	- JLC3130 stackup\n	- PCIe\n		- M.2 NVMe #1\n		- M.2 NVMe #2\n		- PCIe 3.0 16x\n		- VL805 1 & 2\n	- USB 3.0\n		- Front\n		- Rear\n		- Internal\n	- Memory\n		- DQ\n		- DQS\n- Finalize rear I/O\n	- Check against mITX docs\n	- Check rear spacing (3d print)\n- Finalize USB controller choice\n"
+		(exclude_from_sim no)
+		(at 17.018 113.284 0)
+		(effects
+			(font
+				(size 3.556 3.556)
+				(thickness 0.7112)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c9b4f2ba-4348-460c-b4ef-89693b593da9")
+	)
+	(sheet
+		(at 165.1 64.77)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03217e51-4542-4460-9abe-88ae1b679092")
+		(property "Sheetname" "D2000_DIMM1"
+			(at 165.1 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_D2000_DIMM1.kicad_sch"
+			(at 165.1 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 109.22)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06db2744-7f5f-46f4-a95a-4cf9c4759ca5")
+		(property "Sheetname" "D2000_Power"
+			(at 266.7 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_D2000_power.kicad_sch"
+			(at 266.7 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 109.22)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22f2bc6e-8823-40b0-bfed-bd2b018c963b")
+		(property "Sheetname" "D2000_ETH-GPIO"
+			(at 229.87 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_D2000_eth_gpio.kicad_sch"
+			(at 229.87 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 109.22)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2366b2e4-9a98-4894-9625-fb986ebf14b8")
+		(property "Sheetname" "D2000"
+			(at 151.13 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_D2000.kicad_sch"
+			(at 151.13 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 124.46)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ed5404c-a742-44c3-9bb5-b72a037de536")
+		(property "Sheetname" "CPLD"
+			(at 151.13 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10_CPLD.kicad_sch"
+			(at 151.13 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 109.22)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39e6d156-bdb7-419a-b614-bf5717acdb15")
+		(property "Sheetname" "D2000_PCIe"
+			(at 191.77 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_D2000_PCIe.kicad_sch"
+			(at 191.77 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 138.43)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a1f8eeb-4e6a-45d8-8095-6c3e755bd8b9")
+		(property "Sheetname" "VDDQ"
+			(at 151.13 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "17_vddq.kicad_sch"
+			(at 151.13 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 138.43)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a14514f-b627-4ceb-a2f8-4b0de3810adf")
+		(property "Sheetname" "VDD_IO"
+			(at 191.77 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "18_vdd_io.kicad_sch"
+			(at 191.77 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 138.43)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "772a153b-b858-455e-bc35-1c2c7e42d8ea")
+		(property "Sheetname" "Power (other)"
+			(at 229.87 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "19_power.kicad_sch"
+			(at 229.87 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 78.74)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7dbc3300-18c4-41de-81c5-3eecefe1b3f2")
+		(property "Sheetname" "VDD_CORE"
+			(at 233.68 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "16_vdd_core.kicad_sch"
+			(at 233.68 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 124.46)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8240fac1-69ed-4442-917c-327475f6702f")
+		(property "Sheetname" "USB"
+			(at 229.87 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12_USB.kicad_sch"
+			(at 229.87 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 49.53)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "891ed5d3-60d1-44ad-8867-ab2eee8d0e07")
+		(property "Sheetname" "Overview"
+			(at 165.1 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "00_Cover.kicad_sch"
+			(at 165.1 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 124.46)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95320034-21b2-4a7b-998b-417089042498")
+		(property "Sheetname" "Serial"
+			(at 266.7 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "13_serial.kicad_sch"
+			(at 266.7 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 124.46)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d6c2f91-dc71-46e7-8e96-b17f88f9abea")
+		(property "Sheetname" "Audio"
+			(at 191.77 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "11_audio.kicad_sch"
+			(at 191.77 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 78.74)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2ffb3bc-3306-419d-94b6-2e3459db81b9")
+		(property "Sheetname" "ATX PWR"
+			(at 199.39 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "15_atx_pwr.kicad_sch"
+			(at 199.39 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 64.77)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca0b199f-195e-452e-a321-10729616e968")
+		(property "Sheetname" "D2000_DIMM2"
+			(at 199.39 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "08_D2000_DIMM2.kicad_sch"
+			(at 199.39 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 49.53)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce8216c6-3d92-48d1-936d-0a25ffd833ca")
+		(property "Sheetname" "Block Diagram"
+			(at 199.39 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_block.kicad_sch"
+			(at 199.39 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 64.77)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf5a1a22-dc82-45ba-acb8-b74ae3bd5aed")
+		(property "Sheetname" "PCIe"
+			(at 233.68 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "09_pcie.kicad_sch"
+			(at 233.68 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 49.53)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc25b55f-0713-4368-afb0-9d7e2dcc62ef")
+		(property "Sheetname" "Power Block Diagram"
+			(at 233.68 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_power_block.kicad_sch"
+			(at 233.68 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 78.74)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efecd98c-6803-411f-98fa-7daa1309ca99")
+		(property "Sheetname" "Headers"
+			(at 165.1 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "14_headers.kicad_sch"
+			(at 165.1 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "d2000-mitx"
+				(path "/21839173-5070-4dd1-a061-b2cf3eec5d36"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
