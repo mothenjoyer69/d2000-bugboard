@@ -1,7 +1,7 @@
 # d2000-bugboard
 This is an open source, hackable mITX board feauturing the Phytium D2000 ARM CPU. It is intended to provide the best possible platform for anyone who might be interested in domestic Chinese silicon, and how far its come. It is currently very WIP, but is moving along nicely :) 
 
-* 
+* Very WIP Kicad render
 <img src='resources/pics/render.png' width=75%/>
 
 # Specs:
